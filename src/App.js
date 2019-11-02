@@ -1,23 +1,20 @@
 import React from 'react';
-import {Container, Row, Col, Jumbotron, Button} from 'react-bootstrap';
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
+import HomePage from './routes/HomePage';
+import SelectByTypePage from './routes/SelectByTypePage';
+import SelectByProblemPage from './routes/SelectByProblemPage';
 import './App.css';
-
 
 function App() {
   return (
-    <Container>
-      <Jumbotron className='centered-children'>
-        <h1>Welcome!</h1>
-        <Row>
-          <Col xs={6}>
-            <Button variant="primary">Select a Technician by Type</Button>
-          </Col>
-          <Col xs={6}>
-            <Button variant="primary">Learn more</Button>
-          </Col>
-        </Row>
-      </Jumbotron>
-    </Container>
+  <Router>
+    <Route path='/by-type' component={SelectByTypePage} />
+    <Route path='/by-problem' component={SelectByProblemPage} />
+    <Route exact path='/' component={HomePage} />
+  </Router>
   );
 }
 

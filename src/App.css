@@ -2,8 +2,58 @@
   margin-top: 10%;
 }
 
+.jumbotron {
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+}
+
 .centered-children {
   display: flex;
   flex-flow: column;
   align-items: center;
+}
+
+#TechnicianDropdown {
+  display: flex;
+  justify-content: space-around;
+}
+
+#TechnicianDropdown > div {
+  display: flex;
+}
+
+#TechnicianDropdown > div h5 {
+  margin: 5px 10px 0px 10px;
+}
+
+#ZipCodeInput {
+  display: flex;
+  justify-content: space-around;
+}
+
+#ZipCodeInput .input-group{
+  width: 70%;
+  margin-top: 15px;
+}
+
+#Results {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#GoButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#GoButton button {
+  width: fit-content;
+}
+
+.result.card {
+  width: 50%;
+  margin-bottom: 20px;
 }
