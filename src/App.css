@@ -1,0 +1,9 @@
+#root {
+  margin-top: 10%;
+}
+
+.centered-children {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
