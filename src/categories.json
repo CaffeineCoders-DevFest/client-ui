@@ -1,0 +1,52 @@
+{
+	"Indoors": {
+		"Kitchen": [
+			"Water Purification", "Water softening", "Counter tops"
+		],
+		"Ceiling": [
+			"Ceiling Repair", "Crown moduling", "Insulation installation (batts)", "Insulation installation (blown-in)"
+		],
+		"Tiling": [
+			"Ceramic tile repair",
+			"Tile and Grout Cleaning",
+			"Re-Grouting"
+		],
+		"Flooring": ["Carpet"],
+		"Doors": [
+			"Door Installation", "Door Repair", "Lock set adjusment"
+		],
+		"Windows": [
+			"Window Installation", "Window Repair", "Window Cleaning", "Window Screens"
+		],
+		"Walls": [
+			"Drywall Installation", "Drywall repair", "Dryer vent cleaning", "Dryer vent installation", "Fire place cleaning", "Molding installation", "Paint removal", "Sound proofing"
+		]
+	},
+	"Outdoors": {
+		"Garden": [
+			"Framing",
+			"Landscaping",
+			"Sprinkler repair",
+			"Sprinkler system installation",
+			"Pest control",
+			"lawncare"
+		],
+		"Garage": [
+			"Garage door openers",
+			"Garage doors"
+		],
+		"Gutters": [
+			"Gutter Cleaning",
+			"Gutter Repair"
+		],
+		"Plumbing": [
+			"Plumbing repairs",
+			"swaping toilet",
+			"Hot tubs and spas"
+		],
+		"Appliance": [
+			"Dryer repair",
+			"Fan Installation"
+		]
+	}
+}
